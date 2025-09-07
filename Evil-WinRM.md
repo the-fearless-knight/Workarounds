@@ -1,4 +1,4 @@
-## error: 
+## Error: 
 ```
 $ evil-winrm 
 
@@ -38,7 +38,7 @@ bundler: failed to load command: /usr/share/evil-winrm/evil-winrm.rb (/usr/share
 	from /sbin/bundle:25:in '<main>'
 ```
 
-### fix: 
+### Fix: 
 ```
 $ cd /usr/share/evil-winrm && sudo bundle add csv benchmark syslog
 ```
