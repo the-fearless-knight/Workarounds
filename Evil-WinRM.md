@@ -1,6 +1,6 @@
 # error: 
 ```
-evil-winrm 
+$ evil-winrm 
 /usr/share/evil-winrm/vendor/bundle/ruby/3.4.0/gems/logging-2.4.0/lib/logging.rb:10: warning: syslog was loaded from the standard library, but is not part of the default gems starting from Ruby 3.4.0.
 You can add syslog to your Gemfile or gemspec to silence this warning.
 /usr/share/evil-winrm/vendor/bundle/ruby/3.4.0/gems/winrm-2.3.9/lib/winrm/psrp/fragment.rb:35: warning: redefining 'object_id' may cause serious problems
@@ -39,5 +39,5 @@ bundler: failed to load command: /usr/share/evil-winrm/evil-winrm.rb (/usr/share
 
 # fix: 
 ```
-cd /usr/share/evil-winrm && sudo bundle add csv benchmark syslog
+$ cd /usr/share/evil-winrm && sudo bundle add csv benchmark syslog
 ```
