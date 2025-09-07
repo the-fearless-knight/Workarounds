@@ -1,4 +1,4 @@
-error: 
+# error: 
 ```
 evil-winrm 
 /usr/share/evil-winrm/vendor/bundle/ruby/3.4.0/gems/logging-2.4.0/lib/logging.rb:10: warning: syslog was loaded from the standard library, but is not part of the default gems starting from Ruby 3.4.0.
@@ -37,7 +37,7 @@ bundler: failed to load command: /usr/share/evil-winrm/evil-winrm.rb (/usr/share
 	from /sbin/bundle:25:in '<main>'
 ```
 
-fix: 
+# fix: 
 ```
 cd /usr/share/evil-winrm && sudo bundle add csv benchmark syslog
 ```
